@@ -593,6 +593,63 @@ body {
     box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
 }
 
+.btn-join-online {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-join-online:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+}
+
+.online-class {
+    border-left-color: #4CAF50 !important;
+    background: linear-gradient(135deg, #E8F5E9, #F1F8E9) !important;
+}
+
+.online-badge {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.venue-alert {
+    background: #FFF3E0;
+    color: #E65100;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    border-left: 3px solid #FF9800;
+}
+
+.no-classes {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-gray);
+}
+
+.no-classes i {
+    font-size: 4rem;
+    color: var(--tut-blue);
+    margin-bottom: 20px;
+}
 .navigation-modal {
     position: fixed;
     top: 0;
@@ -1669,3 +1726,4 @@ body {
         min-width: 120px;
     }
 }
+
